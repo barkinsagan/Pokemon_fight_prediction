@@ -2,7 +2,7 @@
 
 Welcome to my Pokémon Battle Prediction project! This repository features a machine learning pipeline built using the **Weedle’s Cave dataset** and trained with an **XGBoost model**. It also includes a fully functional **web application** where you can simulate Pokémon battles!
 
-You can also check out the [Kaggle notebook here](https://www.kaggle.com/datasets/terminus7/pokemon-challenge).
+You can also check out the [Kaggle notebook here]([https://www.kaggle.com/datasets/terminus7/pokemon-challenge](https://www.kaggle.com/code/barkinsagan/notebookbd24f3763b)).
 
 ---
 
