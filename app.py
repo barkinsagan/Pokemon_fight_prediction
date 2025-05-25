@@ -7,7 +7,7 @@ import altair as alt
 from predict import predict_battle_from_base_stats
 
 # Load the model
-best_model = joblib.load('best_model.pkl')
+best_model = joblib.load('best_model_exp2.pkl')
 
 # Load the Pokémon data
 pokemon_data = pd.read_csv('pokemon.csv')

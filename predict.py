@@ -45,8 +45,8 @@ def predict_battle_from_base_stats(pokemon1, pokemon2, best_model, pokemon_csv_p
         'Defense_Diff': poke1['Defense'] - poke2['Defense'],
         'SpAtk_Diff': poke1['Sp. Atk'] - poke2['Sp. Atk'],
         'SpDef_Diff': poke1['Sp. Def'] - poke2['Sp. Def'],
-        'Speed_Diff': poke1['Speed'] - poke2['Speed'],
-        'Legendary_Diff': int(poke1['Legendary']) - int(poke2['Legendary'])
+        'Speed_Diff': poke1['Speed'] - poke2['Speed']
+        
     }
 
     df_input = pd.DataFrame([row])
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     # Example usage
     try:
         # Load the model
-        best_model = joblib.load('best_model.pkl')
+        best_model = joblib.load('best_model_exp2.pkl')
         
         # Example Pokémon names
         pokemon1 = "Pikachu"
